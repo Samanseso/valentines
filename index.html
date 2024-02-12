@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Documenrt</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Hello Tracy!</h1>
+<body onload="typeAnim()">
+    <p id="first"></p>
+    <p id="second"></p>
+
+
+    <div id="buttons"> 
+        <a href="time_picker.html"><button id="btn-yes">Yes</button></a>
+        <button id="btn-no" onclick="enlarge_yes()">No</button>
+    </div>
+
+    <style>
+        #buttons {
+            display: none;
+        }
+
+        #btn-yes {
+            width: 100px;
+            height: 40px;
+        }
+    </style>
+
 </body>
+<script src="script.js"></script>
 </html>

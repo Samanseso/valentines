@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(#ff3334, #ff6f77);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.container {
+    flex-direction: row;
+    
+}
+
+#line1 {font-size: 30px;}
+#line2 {font-size: 30px;}
+#line3 {font-size: 30px;}
+#line4 {font-size: 30px;}
+#line5 {font-size: 30px;}
+#line6 {font-size: 30px;}
+#line7 {font-size: 30px;}
+#line8 {font-size: 30px;}

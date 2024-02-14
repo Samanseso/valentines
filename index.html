@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documenrt</title>
+    <title>Happy Valentines Day!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 </head>
 <body onload="typeAnim()">
-    <p id="first"></p>
-    <p id="second"></p>
 
+    <div class="container">
+        <h1 id="greet"></h1>
+        <p id="message"></p>
+        
+        <div id="buttons">
+            <a href="message.html"><button class="btn-yes">Read</button></a>
+            <p>or</p>
+            <button class="btn-no">Ignore</button>
+        </div>
 
-    <div id="buttons"> 
-        <a href="time_picker.html"><button id="btn-yes">Yes</button></a>
-        <button id="btn-no" onclick="enlarge_yes()">No</button>
+        <div class="image">
+            <img src="img/letter.png" alt="letter.png">
+        </div>
     </div>
-
-    <style>
-        #buttons {
-            display: none;
-        }
-
-        #btn-yes {
-            width: 100px;
-            height: 40px;
-        }
-    </style>
 
 </body>
 <script src="script.js"></script>

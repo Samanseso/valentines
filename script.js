@@ -1,22 +1,22 @@
 var i = 0;
 var j = 0;
-var message1 = "lorem ipsum dolor semet";
-var message2 = "Would you like to reschedule it?       ";
-var speed = 1;
+var message1 = "Happy Valentine's Day Tracy!";
+var message2 = "I have prepared a message for you. Would you like to...         ";
+var speed = 50;
 
 function typeAnim() {
     if (i < message1.length) {
-        document.getElementById('first').innerHTML += message1.charAt(i);
+        document.getElementById('greet').innerHTML += message1.charAt(i);
         i++;
     }
 
     if (i >= message1.length && j < message2.length) {
-        document.getElementById('second').innerHTML += message2.charAt(j);
+        document.getElementById('message').innerHTML += message2.charAt(j);
         j++;
     }
 
     if (i >= message1.length && j >= message2.length) {
-        document.getElementById('buttons').style.display = 'block';
+        document.getElementById('buttons').style.display = 'flex';
     }
 
     setTimeout(typeAnim, speed);
